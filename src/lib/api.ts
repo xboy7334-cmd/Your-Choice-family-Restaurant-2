@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 import type { Order, Product } from '../types';
 
 const base = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
