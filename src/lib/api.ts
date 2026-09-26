@@ -1,3 +1,4 @@
+interface ImportMeta Env {...}, interface ImportMeta { env: ImportMetaEnv },
 /// <reference types="vite/client" />
 import type { Order, Product } from '../types';
 
